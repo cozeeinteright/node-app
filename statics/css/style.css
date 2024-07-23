@@ -1,0 +1,18 @@
+.parent {
+  background-color: blue;
+}
+
+.child-one {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  
+}
+
+.child-two {
+  background-color: orange;
+}
+
+.child-three {
+  background-color: pink;
+}

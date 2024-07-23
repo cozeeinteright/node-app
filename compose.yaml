@@ -8,6 +8,12 @@
 # database or a cache. For examples, see the Awesome Compose repository:
 # https://github.com/docker/awesome-compose
 services:
-  app:
+
+  db:
+    ports:
+      - 3300:3000
+  web:
     build:
+    ports:
+      - 3000:3000
       

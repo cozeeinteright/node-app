@@ -1,0 +1,18 @@
+.flex-parent {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  width: 600px;
+  border: 3px solid #f06262;
+
+}
+.flex-parent > * {
+  flex: 1;
+}
+
+.flex-item {
+  width: max-content;
+  padding: .5em;
+  background: rgb(172, 172, 233);
+  border: 3px solid #333;
+}

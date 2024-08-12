@@ -5,7 +5,7 @@ function printName(firstName, lastName) {
 }
 
 function printNTimes(n, value) {
-  debugger
+//  debugger
   for(let i = 0; i < n; i++) {
     console.log(value)
   }
